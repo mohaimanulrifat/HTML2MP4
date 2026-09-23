@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Email the author
+    url: mailto:mohaimanulrifat@outlook.com
+    about: No GitHub account, or something you would rather not post in public.
+  - name: Download the latest version
+    url: https://github.com/mohaimanulrifat/HTML2MP4/releases/latest
+    about: The zip, the checksums and what changed.
+  - name: How to use the app
+    url: https://github.com/mohaimanulrifat/HTML2MP4#quick-start
+    about: The quick start, tips and the questions people ask most.
