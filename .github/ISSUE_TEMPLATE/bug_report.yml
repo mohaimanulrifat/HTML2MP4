@@ -1,0 +1,82 @@
+name: Report a problem
+description: Something in HTML2MP4 did not work, or the video came out wrong.
+title: "Problem: "
+labels: ["problem"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Sorry it went wrong. The details below are what make a problem findable.
+
+        **This page is public.** Before you paste a log, read through it: it contains
+        the names and folders of your own files. Remove anything you would rather not
+        show, or email it instead.
+
+  - type: textarea
+    id: version
+    attributes:
+      label: Version info
+      description: >
+        In the app, open Help, About, and click "Copy version info". Then paste it here.
+        It is just version numbers: the app, Windows, and the parts inside it.
+      render: text
+      placeholder: |
+        HTML2MP4 1.0.0 (built 2026-09-23)
+        Windows 11 (build 10.0.26200), 64-bit
+        Chromium 153.0.8010.0
+        ffmpeg 7.1
+        Playwright 1.63.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: What you did, and what the app did.
+      placeholder: |
+        1. Added my promo, set Duration to 12 seconds
+        2. Clicked Convert all
+        3. The video was made, but the last three seconds are black
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+      placeholder: The whole twelve seconds, as the page plays in a browser.
+    validations:
+      required: true
+
+  - type: textarea
+    id: log
+    attributes:
+      label: The log, if it helps
+      description: >
+        The bottom of the app window shows the log. "Copy log" copies it.
+        Check it first for file names you would rather not share.
+      render: text
+    validations:
+      required: false
+
+  - type: textarea
+    id: sample
+    attributes:
+      label: A sample HTML file
+      description: >
+        Optional, and the single most useful thing for finding a problem. A small file
+        that shows the same fault is ideal. Drag the file into this box to attach it,
+        or zip it first if GitHub refuses the type.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before sending
+      options:
+        - label: I looked through the log and removed anything private.
+          required: false
+        - label: I am using the latest version (Help, Check for updates).
+          required: false
