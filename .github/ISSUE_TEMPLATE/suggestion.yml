@@ -1,0 +1,48 @@
+name: Send a suggestion
+description: An idea for HTML2MP4, or something that would make it easier to use.
+title: "Suggestion: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time. Every suggestion is read.
+        Please do not put anything private here: this page is public.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like the app to do?
+      description: Plain language is fine. One idea per suggestion, if you can.
+      placeholder: For example, remember the last folder I saved a video in.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: What would that help you with?
+      description: What you are making, and where the app gets in your way today.
+      placeholder: I convert about thirty title cards a week, and...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: importance
+    attributes:
+      label: How much would it help?
+      options:
+        - Nice to have
+        - It would save me real time
+        - I cannot use the app properly without it
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Which version are you using?
+      description: The app shows it under Help, About. Leave this out if you are unsure.
+      placeholder: 1.0.0
+    validations:
+      required: false
