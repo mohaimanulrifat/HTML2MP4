@@ -1,12 +1,12 @@
 # HTML2MP4
 
-**Animated HTML, turned into real video. Free, for Windows.**
+**Animated HTML, turned into real video. Slide decks into video, PDF and PowerPoint. Free, for Windows.**
 
 ![HTML2MP4 in action](docs/demo.gif)
 
 ## Download
 
-**[Download HTML2MP4 1.0.0](https://github.com/mohaimanulrifat/HTML2MP4/releases/latest)**  (zip, 287 MB)
+**[Download HTML2MP4 1.1.0](https://github.com/mohaimanulrifat/HTML2MP4/releases/latest)**  (zip, 298 MB)
 
 Windows 10 or 11, 64-bit. Nothing to install: no Python, no browser, no ffmpeg, no account.
 
@@ -17,6 +17,8 @@ Windows 10 or 11, 64-bit. Nothing to install: no Python, no browser, no ffmpeg, 
 - Captures the **page's own sound**, and can add a **music track** with a fade.
 - Converts **a whole list of files** while you carry on working.
 - Shows you **any moment** of the video as a still picture, before you convert.
+- Turns a **slide deck** made with Claude Design into a video, slide by slide, with its animations and Morph movements. New in 1.1.0.
+- Saves any HTML page as a **PDF** at its own size, and a slide deck as an **editable PowerPoint** file. New in 1.1.0.
 
 ![The main window](docs/main-window.png)
 
@@ -31,11 +33,17 @@ Windows 10 or 11, 64-bit. Nothing to install: no Python, no browser, no ffmpeg, 
 
 The video is saved next to your HTML file, with the same name: `My Promo.html` becomes `My Promo.mp4`.
 
+For a slide deck there is no Duration to set: the app says "Slide deck detected" and works out how long each slide stays on screen. Tick **PDF** or **PowerPoint** in the "Make" row to get those too, in the same run.
+
 ## Features
 
 - MP4 up to 4K, 25 to 60 frames per second, four quality settings.
 - Transparent MOV (ProRes 4444) for overlays.
 - Page sound captured automatically, plus your own music track with fade in and out.
+- Presentation mode for slide decks: time per slide worked out from the words on it, or fixed; the backdrop colour; the total length shown before you start.
+- PDF for any HTML: its own size, or A4, A3, Letter or a custom size, scaled to fit. Real text, clickable links, the deck's fonts inside.
+- Editable PowerPoint for slide decks: real text boxes and shapes, speaker notes, fonts inside, and shapes named so PowerPoint's Morph transition animates them.
+- Video, PDF and PowerPoint in any mix, from one run, in the queue too.
 - A queue, so a whole batch converts unattended.
 - A preview of any moment, without making the whole video.
 - A tick box that hides the playback bar and border some design tools add around an exported page.
@@ -62,6 +70,8 @@ These are known and deliberate, not faults:
 - Animated SVG used as an image may look frozen.
 - Fonts and scripts loaded from the internet need a connection at the time you convert.
 - The browser inside the app does not update itself, on purpose: your videos look the same next year as they do today.
+- PowerPoint export works for Claude Design slide decks. PowerPoint draws text its own way, so a line can break at a slightly different word and text looks a little thinner than in the browser.
+- Fonts go inside the PDF and PowerPoint files when the deck carries them. A font the deck only names, such as Windows' own Segoe UI, is left to the PC that opens the file.
 
 ## Privacy
 
@@ -105,7 +115,7 @@ Roughly five minutes for each minute of finished video at 1080p and 60 fps, beca
 
 Both are short forms. For a problem, the app's **Help, About, Copy version info** gives you the details to paste in.
 
-No GitHub account? Email **mohaimanulrifat@outlook.com**.
+No GitHub account? Email **mohaimanul.islam@outlook.com**.
 
 If you attach a log, read through it first: it contains the names and folders of your own files.
 
@@ -116,7 +126,7 @@ Made by **Mohaimanul Islam Rifat**, a media professional from Dhaka, Bangladesh.
 I make animated promos and titles as HTML, and kept needing them as video files. I am not a programmer. I designed this app and built it with the help of an AI coding assistant (Claude Code), then tested it on my own work until it was reliable enough to share.
 
 - LinkedIn: [md-mohaimanul-islam](https://www.linkedin.com/in/md-mohaimanul-islam)
-- Email: mohaimanulrifat@outlook.com
+- Email: mohaimanul.islam@outlook.com
 
 ![The About window](docs/about.png)
 

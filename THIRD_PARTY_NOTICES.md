@@ -1,6 +1,6 @@
 # Third-party notices
 
-HTML2MP4 1.0.0 is free to use, and its own code is closed source. It is built on the open-source components below, each under its own licence. Those licences apply to those components, not to HTML2MP4's own code.
+HTML2MP4 1.1.0 is free to use, and its own code is closed source. It is built on the open-source components below, each under its own licence. Those licences apply to those components, not to HTML2MP4's own code.
 
 The full licence texts are in the `licenses` folder next to `HTML2MP4.exe`, and in the app under Help, Third-party licences.
 
@@ -15,6 +15,11 @@ The full licence texts are in the `licenses` folder next to `HTML2MP4.exe`, and 
 | Pillow | 12.3.0 | MIT-CMU (and the licences it lists) | https://python-pillow.github.io/ |
 | Sun Valley ttk theme (sv-ttk) | 2.6.1 | MIT | https://github.com/rdbende/Sun-Valley-ttk-theme |
 | imageio-ffmpeg | 0.6.0 | BSD-2-Clause | https://github.com/imageio/imageio-ffmpeg |
+| python-pptx | 1.0.2 | MIT | https://github.com/scanny/python-pptx |
+| lxml | 6.1.3 | BSD-3-Clause (and the licences it lists) | https://lxml.de/ |
+| fontTools | 4.66.0 | MIT | https://github.com/fonttools/fonttools |
+| Brotli | 1.2.0 | MIT | https://github.com/google/brotli |
+| XlsxWriter | 3.2.9 | BSD-2-Clause | https://github.com/jmcnamara/XlsxWriter |
 | Playwright driver | 1.63.0 | Apache-2.0 | https://github.com/microsoft/playwright |
 | Node.js | 24.21.0 | MIT (and the licences it lists) | https://nodejs.org/ |
 | PyInstaller bootloader | 6.22.3 | GPL-2.0-or-later with the bootloader exception | https://pyinstaller.org/ |
@@ -26,6 +31,8 @@ The full licence texts are in the `licenses` folder next to `HTML2MP4.exe`, and 
 - **Python:** Includes the standard library, OpenSSL, libffi, zlib, bzip2, xz, expat and mpdecimal, whose licences are in the same file.
 - **Microsoft Visual C++ runtime:** Not open source. Shipped as Python from python.org ships them.
 - **Pillow:** Pillow's own image libraries (libjpeg-turbo, libpng, zlib and others) are listed in its file.
+- **lxml:** Includes libxml2, libxslt, zlib and win-iconv, whose licences are in the same file.
+- **XlsxWriter:** Part of python-pptx, used for the data behind PowerPoint charts.
 - **Playwright driver:** Includes its NOTICE file and its own third-party notices, as Apache-2.0 asks.
 - **Node.js:** Part of the Playwright driver.
 - **PyInstaller bootloader:** The exception allows the bootloader to be shipped inside other programs.

@@ -80,4 +80,4 @@ comes with the terms that apply to it.
 ## Contact
 
 Suggestions and problems: https://github.com/mohaimanulrifat/HTML2MP4/issues
-Email: mohaimanulrifat@outlook.com
+Email: mohaimanul.islam@outlook.com
